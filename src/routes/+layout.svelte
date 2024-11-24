@@ -1,44 +1,43 @@
 <script lang="ts">
     import "../app.css";
+    import { page } from "$app/stores";
+    import { get } from "svelte/store";
+
+    const url = get(page).url;
+
+    const pages = [
+        { id: 0, name: "Home", route: "/" },
+        //{ id: 1, name: "Services", route: "/services" },
+        { id: 2, name: "Sandbox", route: "/sandbox" },
+        //{ id: 3, name: "Writings", route: "/writings" },
+        //{ id: 4, name: "Stack", route: "/stack" },
+    ];
+    console.log(pages[0]);
+    console.log(pages[1]);
 </script>
 
-<main
-    class="flex flex-col justify-start items-center h-auto bg-gradient-to-t from-[#f8f6f2] to-[#f4f0e6]"
->
-    <nav class="flex fixed bottom-10 w-full items-center justify-center">
+<main class="flex flex-col justify-start items-center h-auto">
+    <nav class="flex fixed z-50 bottom-10 w-full items-center justify-center">
         <ul class="flex flex-row rounded-[0.75rem] p-[0.25rem] bg-black gap-4">
             <div class="flex flex-row gap-0">
-                <li
-                    class="flex justify-center items-center w-[90px] py-1 px-2 bg-gray-200 rounded-[0.5rem]"
-                >
-                    <a href="" class="p-0 m-0 text-black font-medium">Home</a>
-                </li>
-                <li
-                    class="flex justify-center items-center py-1 px-2 w-[90px] rounded-[0.5rem]"
-                >
-                    <a href="" class="p-0 m-0 text-white font-medium"
-                        >Services</a
+                {#each pages as { id, name, route } (id)}
+                    <li
+                        class="flex justify-center items-center w-[90px] py-1 px-2 rounded-[0.5rem] {$page
+                            .url.pathname === route
+                            ? 'bg-gray-200'
+                            : 'bg-black'}"
                     >
-                </li>
-                <li
-                    class="flex justify-center items-center py-1 px-2 w-[90px] rounded-[0.5rem]"
-                >
-                    <a href="" class="p-0 m-0 text-white font-medium">Sandbox</a
-                    >
-                </li>
-                <li
-                    class="flex justify-center items-center py-1 px-2 w-[90px] rounded-[0.5rem]"
-                >
-                    <a href="" class="p-0 m-0 text-white font-medium"
-                        >Writings</a
-                    >
-                </li>
-
-                <li
-                    class="flex justify-center items-center py-1 px-2 w-[90px] rounded-[0.5rem]"
-                >
-                    <a href="" class="p-0 m-0 text-white font-medium">Stack</a>
-                </li>
+                        <a
+                            href={route}
+                            class="p-0 m-0 font-medium {$page.url.pathname ===
+                            route
+                                ? 'text-black'
+                                : 'text-white'}"
+                        >
+                            {name}
+                        </a>
+                    </li>
+                {/each}
             </div>
         </ul>
     </nav>

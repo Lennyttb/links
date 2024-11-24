@@ -1,23 +1,65 @@
 [
   {
-    "title": "card title",
-    "description": "card description",
-    "pagelink": "https://google.com",
-    "image": "https://www.thesmallcreative.co/_app/immutable/assets/maia-cover.ni7XNvUt.png",
-    "tags": ["micro-interaction", "webdesign"]
+    "page": "/",
+    "description": "I currently work at GameAnalytics as a Product Designer. Building a data analytics sofware used by +60 000 game studios all over the world",
+    "pagelink": "https://www.gameanalytics.com",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732456857/gameanalytics_zdnvcn.webp",
+    "tags": [""],
+    "cta": "GameAnalytics",
+    "id": 1
   },
   {
-    "title": "card title",
-    "description": "card description",
-    "pagelink": "https://google.com",
-    "image": "https://www.thesmallcreative.co/_app/immutable/assets/maia-cover.ni7XNvUt.png",
-    "tags": ["micro-interaction", "webdesign"]
+    "page": "/",
+    "description": "Designed Maïa, the first educational AI assistant built for students and teachers on the French market.",
+    "pagelink": "https://mymaia.so/",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732457834/maia_skz4i8.gif",
+    "tags": [""],
+    "cta": "Maïa",
+    "id": 2
   },
   {
-    "title": "card title",
-    "description": "card description",
+    "page": "/",
+    "description": "Created Studio Sideral with my former coworker [Enzo Romera](https://bento.me/ozen)",
     "pagelink": "https://google.com",
-    "image": "https://www.thesmallcreative.co/_app/immutable/assets/maia-cover.ni7XNvUt.png",
-    "tags": ["micro-interaction", "webdesign"]
+    "image": "https://creatorspace.imgix.net/users/clxk4fg8v06m2mq01xx8q7hft/2mXhQXO0t62owTUi-maple-showcase.png?w=750&h=750",
+    "tags": [""],
+    "cta": "Studio Sideral",
+    "id": 3
+  },
+  {
+    "page": "/",
+    "description": "Worked at Ubu for a 1+ year, crafting an Instagram DM automation platform built for DTC brands.",
+    "pagelink": "https://getubu.com",
+    "image": "https://cdn.prod.website-files.com/63f5e0ae89ff1b63339fde86/663ba4533f63c1a412c523f5_CS-card-content-wrapper-7.png",
+    "tags": [""],
+    "cta": "Ubu",
+    "id": 4
+  },
+  {
+    "page": "/",
+    "description": "Founded En Mode Magazine with [Matt Legrand](https://www.insprd.io). in 2018. Print and digital fashion publication focusing on cutting edge photography.",
+    "pagelink": "https://enmodemagazine.com",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732458172/Screenshot_2024-11-24_at_15.22.16_t2sj0e.png",
+    "tags": [""],
+    "cta": "En Mode",
+    "id": 5
+  },
+  {
+    "page": "/sandbox",
+    "description": "",
+    "pagelink": "",
+    "image": "https://cdn.prod.website-files.com/63f5e0ae89ff1b63339fde86/66675c4463e233d07cb54e4d_ezgif-1-fe9fd0b693.gif",
+    "tags": ["figma", "micro-interaction"],
+    "cta": "",
+    "id": 6
+  },
+  {
+    "page": "/sandbox",
+    "description": "",
+    "pagelink": "",
+    "image": "https://cdn.prod.website-files.com/63f5e0ae89ff1b63339fde86/664a6b0f08f9160a9e8ba760_about-media.png",
+    "tags": ["figma", "component"],
+    "cta": "",
+    "id": 7
   }
 ]

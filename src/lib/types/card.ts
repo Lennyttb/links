@@ -1,7 +1,9 @@
 export interface Card {
-  title: string;
+  page: string;
   description: string;
   image: string;
-  url: string;
+  pagelink: string;
   tags: string[];
+  cta: string;
+  id: number;
 }
