@@ -10,6 +10,15 @@
   },
   {
     "page": "/",
+    "description": "Free-lancing web designer at Augment Code, the best AI copilot for VS Code",
+    "pagelink": "https://www.augmentcode.com",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1736106586/6712cd6d020f3feb6d75a45b_augment-hero-editor_ns146f.webp",
+    "tags": [""],
+    "cta": "Augment Code",
+    "id": 1.5
+  },
+  {
+    "page": "/",
     "description": "Designed Maïa, the first educational AI assistant built for students and teachers on the French market.",
     "pagelink": "https://mymaia.so/",
     "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732457834/maia_skz4i8.gif",
@@ -61,5 +70,50 @@
     "tags": ["figma", "component"],
     "cta": "",
     "id": 7
+  },
+  {
+    "page": "/sandbox",
+    "description": "",
+    "pagelink": "",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732564073/Gontran_analytics_f5fe27.png",
+    "tags": ["figma", "design system"],
+    "cta": "",
+    "id": 8
+  },
+  {
+    "page": "/sandbox",
+    "description": "",
+    "pagelink": "",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732564073/CS-card-content-wrapper_vvus6b.png",
+    "tags": ["figma", "mockup"],
+    "cta": "",
+    "id": 9
+  },
+  {
+    "page": "/sandbox",
+    "description": "",
+    "pagelink": "",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732564073/Maia1_sgsock.png",
+    "tags": ["in prod", "component"],
+    "cta": "",
+    "id": 10
+  },
+  {
+    "page": "/sandbox",
+    "description": "",
+    "pagelink": "",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732564073/Ubu1_fuplaw.png",
+    "tags": ["in prod"],
+    "cta": "",
+    "id": 11
+  },
+  {
+    "page": "/sandbox",
+    "description": "",
+    "pagelink": "",
+    "image": "https://res.cloudinary.com/dujjzyyhs/image/upload/v1732564073/Ubu2_edibbz.png",
+    "tags": ["in prod"],
+    "cta": "",
+    "id": 12
   }
 ]

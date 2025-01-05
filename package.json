@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"marked": "^15.0.2"
+		"marked": "^15.0.2",
+		"svelte-heart": "^1.0.15"
 	}
 }

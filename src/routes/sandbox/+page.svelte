@@ -44,7 +44,7 @@
                         <Card.Content class="flex flex-col gap-2 p-0">
                             <div
                                 href={card.pagelink}
-                                class="rounded-[0.25rem] object-cover overflow-hidden w-full h-[400px]"
+                                class="rounded-[0.75rem] object-cover overflow-hidden w-full h-[400px]"
                             >
                                 <img
                                     class="h-full w-full object-cover"

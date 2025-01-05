@@ -65,7 +65,7 @@
                             </div>--->
                             <a
                                 href={card.pagelink}
-                                class="rounded-[0.25rem] object-cover overflow-hidden w-full h-[300px] hover:*:scale-105"
+                                class="rounded-[0.75rem] object-cover overflow-hidden w-full h-[300px] hover:*:scale-105"
                             >
                                 <img
                                     class="h-full w-full object-cover transition-transform"
